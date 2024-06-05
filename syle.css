@@ -1,0 +1,32 @@
+nav
+{
+    min-width: 50px;
+
+}
+
+.navContainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinkContainer
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 100px;
+}
+.navlinkContainer a
+{
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px)  {
+    .navlinkContainer
+{
+    display: none;
+}
+}
